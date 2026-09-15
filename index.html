@@ -1,454 +1,2851 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ritik Yadav — SEO & Growth Marketing Specialist</title>
-<meta name="description" content="Ritik Yadav — SEO & Growth Marketing Specialist. Moved 25+ keywords to Top 3 on Google, built 6,000+ backlinks, and specializes in AEO/GEO for AI-era search.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23111'/%3E%3Ctext x='50' y='68' font-size='55' font-family='sans-serif' font-weight='700' fill='%23FF6B35' text-anchor='middle'%3ERY%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg:#0a0a0a;
-  --surface:#131313;
-  --border:#232323;
-  --text:#f2f2f2;
-  --muted:#9a9a9a;
-  --dim:#666;
-  --accent:#FF6A39;
-  --accent-dim:#3a1f12;
-  --mono:'JetBrains Mono',monospace;
-  --font:'Manrope',sans-serif;
-}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-a{color:inherit;text-decoration:none}
-.container{max-width:1180px;margin:0 auto;padding:0 2rem}
-section{padding:100px 0;scroll-margin-top:96px}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* NAV */
-nav{position:sticky;top:0;z-index:200;padding:1.25rem 0;background:linear-gradient(to bottom, rgba(10,10,10,.95), rgba(10,10,10,.7));backdrop-filter:blur(10px)}
-.nav-inner{max-width:1180px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:center}
-.nav-pill{display:flex;align-items:center;gap:.25rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;padding:6px;flex-wrap:wrap;justify-content:center}
-.nav-pill a{font-size:12.5px;font-weight:600;letter-spacing:.04em;color:var(--muted);padding:9px 18px;border-radius:100px;transition:all .25s;white-space:nowrap}
-.nav-pill a:hover{color:var(--text)}
-.nav-pill a.active,.nav-pill a.cta{background:var(--accent);color:#fff}
-.nav-toggle{display:none}
-.nav-mobile{display:none}
+  <title>Ritik Yadav — SEO & Growth Marketing Specialist</title>
 
-/* HERO */
-.hero{padding-top:70px;padding-bottom:60px;display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center;min-height:80vh}
-.hero-eyebrow{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.15em;text-transform:uppercase;margin-bottom:1.25rem;display:flex;align-items:center;gap:8px}
-.hero-eyebrow::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-.hero h1{font-size:clamp(3rem,6vw,4.6rem);font-weight:800;letter-spacing:-.03em;line-height:1}
-.hero .role{font-size:1.3rem;color:var(--muted);margin-top:1rem;font-weight:500}
-.hero p.lede{margin-top:1.5rem;color:var(--muted);max-width:480px;font-size:1rem}
-.hero-actions{display:flex;gap:1rem;margin-top:2.5rem;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:10px;font-size:14px;font-weight:700;transition:all .2s}
-.btn-solid{background:var(--accent);color:#fff}
-.btn-solid:hover{transform:translateY(-2px);box-shadow:0 8px 24px -8px var(--accent)}
-.btn-outline{border:1px solid var(--border);color:var(--text)}
-.btn-outline:hover{border-color:var(--accent);color:var(--accent)}
-.hero-visual{position:relative;aspect-ratio:1;border-radius:24px;background:radial-gradient(circle at 30% 20%, var(--accent-dim), #0a0a0a 70%);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;overflow:hidden}
-.hero-avatar{width:60%;aspect-ratio:1;border-radius:50%;background:var(--surface);border:2px solid var(--accent);display:flex;align-items:center;justify-content:center;font-size:5rem;font-weight:800;color:var(--accent);font-family:var(--mono);position:relative;z-index:2}
-.hero-visual svg{position:absolute;inset:0;width:100%;height:100%;opacity:.5}
-.hero-badge{position:absolute;bottom:18px;left:18px;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:12px 18px;z-index:3}
-.hero-badge b{color:var(--accent);font-size:1.3rem;display:block}
-.hero-badge span{font-size:11px;color:var(--muted)}
+  <meta
+    name="description"
+    content="Ritik Yadav — SEO & Growth Marketing Specialist specializing in technical SEO, content strategy, on-page SEO, link building, CRO, AEO and GEO."
+  >
 
-/* SECTION HEAD */
-.sec-head{margin-bottom:3rem}
-.sec-eyebrow{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.12em;text-transform:uppercase;margin-bottom:.6rem}
-.sec-title{font-size:2.4rem;font-weight:800;letter-spacing:-.02em}
-.sec-sub{color:var(--muted);margin-top:.6rem;max-width:600px}
+  <meta name="author" content="Ritik Yadav">
+  <meta name="robots" content="index, follow">
 
-/* ABOUT */
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:start}
-.about-text p{color:var(--muted);margin-bottom:1.1rem}
-.about-text strong{color:var(--text)}
-.about-cards{display:flex;flex-direction:column;gap:1rem}
-.about-card{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:10px;padding:1.4rem}
-.about-card h4{font-size:1rem;font-weight:700;margin-bottom:.4rem}
-.about-card p{color:var(--muted);font-size:.9rem}
+  <link rel="canonical" href="https://ritikydv-portfolio.vercel.app/">
 
-/* SKILLS */
-.skills-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
-.skill-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.4rem}
-.skill-card .name{font-weight:700;font-size:.95rem;margin-bottom:.9rem}
-.bar-track{height:6px;background:var(--border);border-radius:100px;overflow:hidden}
-.bar-fill{height:100%;background:linear-gradient(90deg,var(--accent),#ffb088);border-radius:100px}
-.skill-card .pct{margin-top:.5rem;font-family:var(--mono);font-size:12px;color:var(--muted)}
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ritik Yadav — SEO & Growth Marketing Specialist">
+  <meta
+    property="og:description"
+    content="SEO & Growth Marketing Specialist focused on technical SEO, content strategy, organic growth, CRO, AEO and GEO."
+  >
+  <meta property="og:url" content="https://ritikydv-portfolio.vercel.app/">
+  <meta property="og:site_name" content="Ritik Yadav Portfolio">
 
-/* EXPERIENCE */
-.exp-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:2rem;margin-bottom:1.25rem}
-.exp-top{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap;margin-bottom:.9rem}
-.exp-role{font-size:1.15rem;font-weight:700}
-.exp-org{color:var(--accent);font-weight:600;font-size:.92rem;margin-top:.2rem}
-.exp-date{font-family:var(--mono);font-size:12px;color:var(--muted);border:1px solid var(--border);border-radius:100px;padding:5px 14px;white-space:nowrap}
-.exp-card ul{margin-top:.75rem;padding-left:1.1rem;color:var(--muted);font-size:.92rem;display:flex;flex-direction:column;gap:.4rem}
-.exp-card ul li::marker{color:var(--accent)}
+  <!-- Favicon -->
+  <link
+    rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23111'/%3E%3Ctext x='50' y='68' font-size='55' font-family='sans-serif' font-weight='700' fill='%23FF6B35' text-anchor='middle'%3ERY%3C/text%3E%3C/svg%3E"
+  >
 
-/* EDUCATION */
-.edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
-.edu-card,.cert-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.5rem;margin-bottom:1rem}
-.edu-tag{font-family:var(--mono);font-size:11px;color:var(--accent);letter-spacing:.08em;margin-bottom:.5rem}
-.edu-degree{font-size:1.05rem;font-weight:700;margin-bottom:.2rem}
-.edu-school{color:var(--muted);font-size:.9rem}
-.edu-grade{color:var(--dim);font-size:.82rem;margin-top:.5rem}
-.cert-row{display:flex;justify-content:space-between;align-items:center}
-.cert-name{font-weight:700;font-size:.95rem}
-.cert-org{color:var(--muted);font-size:.85rem;margin-top:.15rem}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex-shrink:0}
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-/* PROJECTS */
-.proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
-.proj-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;overflow:hidden;transition:transform .25s,border-color .25s;display:flex;flex-direction:column}
-.proj-card:hover{transform:translateY(-4px);border-color:var(--accent)}
-.proj-cover{height:140px;display:flex;align-items:center;justify-content:center;font-size:2.4rem}
-.proj-body{padding:1.4rem;display:flex;flex-direction:column;gap:.6rem;flex:1}
-.proj-tag{font-family:var(--mono);font-size:10.5px;color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
-.proj-title{font-size:1.05rem;font-weight:700}
-.proj-desc{color:var(--muted);font-size:.87rem;flex:1}
-.proj-metrics{display:flex;gap:1rem;flex-wrap:wrap;margin-top:.3rem}
-.proj-metric{font-family:var(--mono);font-size:11px;color:var(--text);background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:3px 8px}
-.proj-link{margin-top:.5rem;font-size:.85rem;font-weight:700;color:var(--accent);display:inline-flex;align-items:center;gap:5px}
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
 
-/* CONTACT */
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:start}
-.contact-title{font-size:2.2rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.8rem}
-.contact-sub{color:var(--muted);margin-bottom:2rem;max-width:420px}
-.contact-info{display:flex;align-items:center;gap:.7rem;color:var(--muted);margin-bottom:.9rem;font-size:.92rem}
-.contact-info .ic{color:var(--accent)}
-.social-row{display:flex;gap:.7rem;margin-top:1.6rem}
-.social-btn{width:42px;height:42px;border-radius:50%;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:1rem;transition:all .2s}
-.social-btn:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
-.contact-form{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:2.2rem}
-.form-group{margin-bottom:1.2rem}
-.form-label{display:block;font-size:12px;color:var(--muted);margin-bottom:.5rem;font-weight:600}
-.form-input{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:9px;padding:12px 14px;color:var(--text);font-size:.92rem;font-family:var(--font);outline:none;transition:border .2s}
-.form-input:focus{border-color:var(--accent)}
-textarea.form-input{resize:vertical;min-height:100px}
-.form-submit{width:100%;padding:13px;background:var(--accent);color:#fff;border:none;border-radius:9px;font-size:.92rem;font-weight:700;cursor:pointer;transition:opacity .2s}
-.form-submit:hover{opacity:.85}
+  <!-- Person / Portfolio Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://ritikydv-portfolio.vercel.app/#person",
+    "name": "Ritik Yadav",
+    "url": "https://ritikydv-portfolio.vercel.app/",
+    "jobTitle": "SEO & Growth Marketing Specialist",
+    "description": "SEO & Growth Marketing Specialist specializing in technical SEO, content strategy, on-page SEO, off-page SEO, CRO, AEO and GEO.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Delhi",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/ritik-yadav000/",
+      "https://github.com/yadavritikk21-eng"
+    ],
+    "knowsAbout": [
+      "Search Engine Optimization",
+      "Technical SEO",
+      "On-Page SEO",
+      "Off-Page SEO",
+      "Content SEO",
+      "Conversion Rate Optimization",
+      "Answer Engine Optimization",
+      "Generative Engine Optimization",
+      "Keyword Research",
+      "Google Search Console",
+      "Google Analytics 4",
+      "Google Tag Manager",
+      "Ahrefs",
+      "Semrush"
+    ]
+  }
+  </script>
 
-footer{border-top:1px solid var(--border);padding:2rem 0;text-align:center;color:var(--dim);font-size:12px}
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-.fade{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
-.fade.visible{opacity:1;transform:none}
+    :root {
+      --bg: #0a0a0a;
+      --surface: #131313;
+      --border: #232323;
+      --text: #f2f2f2;
+      --muted: #9a9a9a;
+      --dim: #666;
+      --accent: #FF6A39;
+      --accent-dim: #3a1f12;
+      --mono: 'JetBrains Mono', monospace;
+      --font: 'Manrope', sans-serif;
+    }
 
-@media(max-width:900px){
-  .hero{grid-template-columns:1fr;min-height:auto;padding-top:40px}
-  .hero-visual{max-width:340px;margin:0 auto}
-  .about-grid,.edu-grid,.contact-grid{grid-template-columns:1fr}
-  .skills-grid{grid-template-columns:repeat(2,1fr)}
-  .proj-grid{grid-template-columns:1fr 1fr}
-  .nav-pill{display:none}
-  .nav-toggle{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--border);border-radius:100px;padding:8px 16px;font-size:12px;font-weight:600;margin:0 auto}
-  .nav-mobile{display:none;flex-direction:column;gap:0;margin:.75rem auto 0;max-width:280px;background:var(--surface);border:1px solid var(--border);border-radius:16px;overflow:hidden}
-  .nav-mobile.open{display:flex}
-  .nav-mobile a{padding:14px 20px;font-size:13px;color:var(--muted);border-top:1px solid var(--border)}
-  .nav-mobile a:first-child{border-top:none}
-}
-@media(max-width:560px){
-  .skills-grid{grid-template-columns:1fr 1fr}
-  .proj-grid{grid-template-columns:1fr}
-  .exp-top{flex-direction:column}
-}
-</style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section {
+      padding: 100px 0;
+      scroll-margin-top: 96px;
+    }
+
+    /* =========================
+       NAVIGATION
+    ========================= */
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      padding: 1.25rem 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(10, 10, 10, .95),
+        rgba(10, 10, 10, .7)
+      );
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-pill {
+      display: flex;
+      align-items: center;
+      gap: .25rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 6px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .nav-pill a {
+      font-size: 12.5px;
+      font-weight: 600;
+      letter-spacing: .04em;
+      color: var(--muted);
+      padding: 9px 15px;
+      border-radius: 100px;
+      transition: all .25s;
+      white-space: nowrap;
+    }
+
+    .nav-pill a:hover {
+      color: var(--text);
+    }
+
+    .nav-pill a.active,
+    .nav-pill a.cta {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .nav-toggle {
+      display: none;
+    }
+
+    .nav-mobile {
+      display: none;
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+      padding-top: 70px;
+      padding-bottom: 60px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 3rem;
+      align-items: center;
+      min-height: 80vh;
+    }
+
+    .hero-eyebrow {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hero-eyebrow::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: .3;
+      }
+    }
+
+    .hero h1 {
+      font-size: clamp(3rem, 6vw, 4.6rem);
+      font-weight: 800;
+      letter-spacing: -.03em;
+      line-height: 1;
+    }
+
+    .hero .role {
+      font-size: 1.3rem;
+      color: var(--muted);
+      margin-top: 1rem;
+      font-weight: 500;
+    }
+
+    .hero p.lede {
+      margin-top: 1.5rem;
+      color: var(--muted);
+      max-width: 520px;
+      font-size: 1rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 13px 26px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      transition: all .2s;
+    }
+
+    .btn-solid {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .btn-solid:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px -8px var(--accent);
+    }
+
+    .btn-outline {
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .hero-visual {
+      position: relative;
+      aspect-ratio: 1;
+      border-radius: 24px;
+      background: radial-gradient(
+        circle at 30% 20%,
+        var(--accent-dim),
+        #0a0a0a 70%
+      );
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .hero-avatar {
+      width: 60%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background: var(--surface);
+      border: 2px solid var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+      font-weight: 800;
+      color: var(--accent);
+      font-family: var(--mono);
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-visual svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .5;
+    }
+
+    .hero-badge {
+      position: absolute;
+      bottom: 18px;
+      left: 18px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px 18px;
+      z-index: 3;
+    }
+
+    .hero-badge b {
+      color: var(--accent);
+      font-size: 1.3rem;
+      display: block;
+    }
+
+    .hero-badge span {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* =========================
+       SECTION HEAD
+    ========================= */
+
+    .sec-head {
+      margin-bottom: 3rem;
+    }
+
+    .sec-eyebrow {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: .6rem;
+    }
+
+    .sec-title {
+      font-size: 2.4rem;
+      font-weight: 800;
+      letter-spacing: -.02em;
+    }
+
+    .sec-sub {
+      color: var(--muted);
+      margin-top: .6rem;
+      max-width: 650px;
+    }
+
+    /* =========================
+       ABOUT
+    ========================= */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3.5rem;
+      align-items: start;
+    }
+
+    .about-text p {
+      color: var(--muted);
+      margin-bottom: 1.1rem;
+    }
+
+    .about-text strong {
+      color: var(--text);
+    }
+
+    .about-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .about-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 10px;
+      padding: 1.4rem;
+    }
+
+    .about-card h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: .4rem;
+    }
+
+    .about-card p {
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    /* =========================
+       SKILLS
+    ========================= */
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.1rem;
+    }
+
+    .skill-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.4rem;
+    }
+
+    .skill-card .name {
+      font-weight: 700;
+      font-size: .95rem;
+      margin-bottom: .9rem;
+    }
+
+    .bar-track {
+      height: 6px;
+      background: var(--border);
+      border-radius: 100px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      background: linear-gradient(
+        90deg,
+        var(--accent),
+        #ffb088
+      );
+      border-radius: 100px;
+    }
+
+    .skill-card .pct {
+      margin-top: .5rem;
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* =========================
+       EXPERIENCE
+    ========================= */
+
+    .exp-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .exp-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: .9rem;
+    }
+
+    .exp-role {
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+
+    .exp-org {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: .92rem;
+      margin-top: .2rem;
+    }
+
+    .exp-date {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 5px 14px;
+      white-space: nowrap;
+    }
+
+    .exp-card ul {
+      margin-top: .75rem;
+      padding-left: 1.1rem;
+      color: var(--muted);
+      font-size: .92rem;
+      display: flex;
+      flex-direction: column;
+      gap: .55rem;
+    }
+
+    .exp-card ul li::marker {
+      color: var(--accent);
+    }
+
+    /* =========================
+       CASE STUDY
+    ========================= */
+
+    .case-study {
+      background: linear-gradient(
+        135deg,
+        rgba(58, 31, 18, .42),
+        rgba(19, 19, 19, .9)
+      );
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 2.5rem;
+    }
+
+    .case-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 1rem;
+    }
+
+    .case-label::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .case-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: .6rem;
+    }
+
+    .case-intro {
+      color: var(--muted);
+      max-width: 760px;
+      font-size: .95rem;
+    }
+
+    .case-meta {
+      display: flex;
+      gap: .7rem;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .case-meta span {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 6px 11px;
+      background: rgba(10, 10, 10, .45);
+    }
+
+    .case-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-top: 2.5rem;
+    }
+
+    .case-content h3 {
+      font-size: 1.05rem;
+      margin-bottom: .8rem;
+    }
+
+    .case-content p {
+      color: var(--muted);
+      font-size: .9rem;
+      margin-bottom: 1rem;
+    }
+
+    .case-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: .7rem;
+    }
+
+    .case-list li {
+      color: var(--muted);
+      font-size: .88rem;
+      padding-left: 1.25rem;
+      position: relative;
+    }
+
+    .case-list li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-family: var(--mono);
+    }
+
+    .case-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-top: 2.5rem;
+    }
+
+    .case-metric {
+      background: rgba(10, 10, 10, .6);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.35rem;
+    }
+
+    .case-metric strong {
+      display: block;
+      font-size: 1.55rem;
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    .case-metric span {
+      display: block;
+      margin-top: .25rem;
+      color: var(--muted);
+      font-size: .78rem;
+    }
+
+    .case-actions {
+      display: flex;
+      gap: .8rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    /* =========================
+       EDUCATION
+    ========================= */
+
+    .edu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+
+    .edu-card,
+    .cert-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .edu-tag {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--accent);
+      letter-spacing: .08em;
+      margin-bottom: .5rem;
+    }
+
+    .edu-degree {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: .2rem;
+    }
+
+    .edu-school {
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .edu-grade {
+      color: var(--dim);
+      font-size: .82rem;
+      margin-top: .5rem;
+    }
+
+    .cert-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cert-name {
+      font-weight: 700;
+      font-size: .95rem;
+    }
+
+    .cert-org {
+      color: var(--muted);
+      font-size: .85rem;
+      margin-top: .15rem;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex-shrink: 0;
+    }
+
+    /* =========================
+       PROJECTS
+    ========================= */
+
+    .proj-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.3rem;
+    }
+
+    .proj-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: transform .25s, border-color .25s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .proj-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+    }
+
+    .proj-cover {
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.4rem;
+    }
+
+    .proj-body {
+      padding: 1.4rem;
+      display: flex;
+      flex-direction: column;
+      gap: .6rem;
+      flex: 1;
+    }
+
+    .proj-tag {
+      font-family: var(--mono);
+      font-size: 10.5px;
+      color: var(--accent);
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    .proj-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+
+    .proj-desc {
+      color: var(--muted);
+      font-size: .87rem;
+      flex: 1;
+    }
+
+    .proj-metrics {
+      display: flex;
+      gap: .5rem;
+      flex-wrap: wrap;
+      margin-top: .3rem;
+    }
+
+    .proj-metric {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--text);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 7px;
+    }
+
+    .proj-link {
+      margin-top: .5rem;
+      font-size: .85rem;
+      font-weight: 700;
+      color: var(--accent);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* =========================
+       CONTACT
+    ========================= */
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3.5rem;
+      align-items: start;
+    }
+
+    .contact-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -.02em;
+      margin-bottom: .8rem;
+    }
+
+    .contact-sub {
+      color: var(--muted);
+      margin-bottom: 2rem;
+      max-width: 470px;
+    }
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+      gap: .7rem;
+      color: var(--muted);
+      margin-bottom: .9rem;
+      font-size: .92rem;
+    }
+
+    .contact-info .ic {
+      color: var(--accent);
+    }
+
+    .social-row {
+      display: flex;
+      gap: .7rem;
+      margin-top: 1.6rem;
+    }
+
+    .social-btn {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      transition: all .2s;
+    }
+
+    .social-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .contact-form {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 2.2rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.2rem;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: .5rem;
+      font-weight: 600;
+    }
+
+    .form-input {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      padding: 12px 14px;
+      color: var(--text);
+      font-size: .92rem;
+      font-family: var(--font);
+      outline: none;
+      transition: border .2s;
+    }
+
+    .form-input:focus {
+      border-color: var(--accent);
+    }
+
+    textarea.form-input {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .form-submit {
+      width: 100%;
+      padding: 13px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 9px;
+      font-size: .92rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity .2s;
+    }
+
+    .form-submit:hover {
+      opacity: .85;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 0;
+      text-align: center;
+      color: var(--dim);
+      font-size: 12px;
+    }
+
+    /* =========================
+       ANIMATION
+    ========================= */
+
+    .fade {
+      opacity: 0;
+      transform: translateY(18px);
+      transition:
+        opacity .6s ease,
+        transform .6s ease;
+    }
+
+    .fade.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* =========================
+       RESPONSIVE
+    ========================= */
+
+    @media(max-width: 1050px) {
+
+      .nav-pill a {
+        padding: 9px 11px;
+        font-size: 11.5px;
+      }
+
+      .case-metrics {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+    }
+
+    @media(max-width: 900px) {
+
+      .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding-top: 40px;
+      }
+
+      .hero-visual {
+        max-width: 340px;
+        margin: 0 auto;
+      }
+
+      .about-grid,
+      .edu-grid,
+      .contact-grid,
+      .case-content {
+        grid-template-columns: 1fr;
+      }
+
+      .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .proj-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .nav-pill {
+        display: none;
+      }
+
+      .nav-toggle {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        color: var(--text);
+        border-radius: 100px;
+        padding: 8px 16px;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0 auto;
+        cursor: pointer;
+      }
+
+      .nav-mobile {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        margin: .75rem auto 0;
+        max-width: 280px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        overflow: hidden;
+      }
+
+      .nav-mobile.open {
+        display: flex;
+      }
+
+      .nav-mobile a {
+        padding: 14px 20px;
+        font-size: 13px;
+        color: var(--muted);
+        border-top: 1px solid var(--border);
+      }
+
+      .nav-mobile a:first-child {
+        border-top: none;
+      }
+
+      .case-study {
+        padding: 2rem;
+      }
+    }
+
+    @media(max-width: 560px) {
+
+      .container {
+        padding: 0 1.2rem;
+      }
+
+      section {
+        padding: 75px 0;
+      }
+
+      .hero h1 {
+        font-size: 3rem;
+      }
+
+      .hero .role {
+        font-size: 1.1rem;
+      }
+
+      .sec-title {
+        font-size: 2rem;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .proj-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .case-metrics {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .case-study {
+        padding: 1.4rem;
+        border-radius: 16px;
+      }
+
+      .case-title {
+        font-size: 1.45rem;
+      }
+
+      .exp-top {
+        flex-direction: column;
+      }
+
+      .contact-title {
+        font-size: 1.8rem;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+    }
+  </style>
 </head>
+
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <div class="nav-pill" id="navPill">
-      <a href="#home" class="active">Home</a>
+  <!-- =========================
+       NAVIGATION
+  ========================= -->
+
+  <nav>
+    <div class="nav-inner">
+
+      <div class="nav-pill" id="navPill">
+
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#case-study">Case Study</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="cta">Contact</a>
+
+      </div>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-label="Open navigation menu"
+      >
+        ☰ Menu
+      </button>
+
+    </div>
+
+    <div class="nav-mobile" id="navMobile">
+
+      <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
+      <a href="#case-study">Case Study</a>
       <a href="#education">Education</a>
       <a href="#projects">Projects</a>
-      <a href="#contact" class="cta">Contact</a>
-    </div>
-    <button class="nav-toggle" id="navToggle">☰ Menu</button>
-  </div>
-  <div class="nav-mobile" id="navMobile">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#education">Education</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
+      <a href="#contact">Contact</a>
 
-<!-- HOME -->
-<div class="container" id="home">
-<section class="hero fade">
-  <div>
-    <div class="hero-eyebrow">Open to work · Delhi NCR &amp; Remote</div>
-    <h1>Ritik Yadav</h1>
-    <div class="role">SEO &amp; Growth Marketing Specialist</div>
-    <p class="lede">I move keywords from page 2 to position 1, build backlinks that stick, and structure content so AI tools like ChatGPT and Perplexity actually cite it.</p>
-    <div class="hero-actions">
-      <a href="#projects" class="btn btn-solid">View Work →</a>
-      <a href="Ritik_Yadav_Resume.docx" class="btn btn-outline" download>Download Résumé ↓</a>
     </div>
-  </div>
-  <div class="hero-visual">
-    <svg viewBox="0 0 400 400"><g stroke="#FF6A39" stroke-width="1" opacity="0.35">
-      <line x1="40" y1="60" x2="140" y2="120"/><line x1="140" y1="120" x2="90" y2="220"/>
-      <line x1="90" y1="220" x2="200" y2="260"/><line x1="200" y1="260" x2="320" y2="180"/>
-      <line x1="320" y1="180" x2="280" y2="80"/><line x1="280" y1="80" x2="140" y2="120"/>
-      <line x1="60" y1="320" x2="200" y2="260"/><line x1="340" y1="320" x2="320" y2="180"/>
-    </g><g fill="#FF6A39">
-      <circle cx="40" cy="60" r="3"/><circle cx="140" cy="120" r="3"/><circle cx="90" cy="220" r="3"/>
-      <circle cx="200" cy="260" r="3"/><circle cx="320" cy="180" r="3"/><circle cx="280" cy="80" r="3"/>
-      <circle cx="60" cy="320" r="3"/><circle cx="340" cy="320" r="3"/>
-    </g></svg>
-    <div class="hero-avatar">RY</div>
-    <div class="hero-badge"><b>25+</b><span>Keywords → Top 3</span></div>
-  </div>
-</section>
-</div>
+  </nav>
 
-<!-- ABOUT -->
-<div class="container" id="about">
-<section class="fade">
-  <div class="sec-head">
-    <div class="sec-eyebrow">// about</div>
-    <div class="sec-title">About Me</div>
-    <p class="sec-sub">A look into my approach to organic growth, and where SEO is heading in the age of AI search.</p>
-  </div>
-  <div class="about-grid">
-    <div class="about-text">
-      <p>I'm <strong>Ritik Yadav</strong>, an SEO &amp; Growth Marketing Specialist with 1+ year of hands-on experience across <strong>EdTech, SaaS, interior design, and international client work</strong>. I've moved <strong>25+ competitive keywords into Top 3</strong> Google positions, ranked 30+ pages/keywords in the SERPs, written 50+ SEO content articles, and built 6,000+ high-quality backlinks through structured outreach.</p>
-      <p>With a strong foundation in <strong>on-page, technical, and off-page SEO</strong>, I'm equally focused on where search is heading next — <strong>Answer Engine Optimization (AEO)</strong> and <strong>Generative Engine Optimization (GEO)</strong>, structuring content so it appears in AI Overviews and gets cited by tools like ChatGPT and Perplexity.</p>
-      <p>I currently run SEO and CRO independently for a Delhi-based interior design firm, and previously delivered SEO content for an international education-sector client — managing strategy, delivery, and client communication end to end. My technical side is AI-assisted: Node.js and Next.js prototypes and AI-driven content workflows that scale execution without sacrificing quality.</p>
-    </div>
-    <div class="about-cards">
-      <div class="about-card">
-        <h4>Search &amp; Growth Strategy</h4>
-        <p>On-page, technical, and off-page SEO — search intent mapping, heading architecture, schema, and structured backlink outreach systems.</p>
-      </div>
-      <div class="about-card">
-        <h4>AEO &amp; GEO</h4>
-        <p>Structuring content for Google AI Overviews, featured snippets, and citation by ChatGPT, Perplexity, and Google AI Mode.</p>
-      </div>
-      <div class="about-card">
-        <h4>Client Management &amp; AI-Assisted Dev</h4>
-        <p>Independent client ownership — strategy, delivery, and reporting — plus Node.js/Next.js prototyping and AI-assisted content workflows.</p>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
 
-<!-- SKILLS -->
-<div class="container" id="skills">
-<section class="fade">
-  <div class="sec-head">
-    <div class="sec-eyebrow">// skills</div>
-    <div class="sec-title">Skills</div>
-    <p class="sec-sub">Tools and disciplines I use to move rankings, earn links, and build search-ready content systems.</p>
-  </div>
-  <div class="skills-grid">
-    <div class="skill-card"><div class="name">On-Page SEO</div><div class="bar-track"><div class="bar-fill" style="width:92%"></div></div><div class="pct">92%</div></div>
-    <div class="skill-card"><div class="name">Off-Page &amp; Link Building</div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div><div class="pct">90%</div></div>
-    <div class="skill-card"><div class="name">AEO / GEO</div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div><div class="pct">85%</div></div>
-    <div class="skill-card"><div class="name">Technical SEO &amp; CRO</div><div class="bar-track"><div class="bar-fill" style="width:84%"></div></div><div class="pct">84%</div></div>
-    <div class="skill-card"><div class="name">Keyword Research (Ahrefs, Semrush)</div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div><div class="pct">85%</div></div>
-    <div class="skill-card"><div class="name">GSC / GA4 / Screaming Frog</div><div class="bar-track"><div class="bar-fill" style="width:83%"></div></div><div class="pct">83%</div></div>
-    <div class="skill-card"><div class="name">Client Communication</div><div class="bar-track"><div class="bar-fill" style="width:88%"></div></div><div class="pct">88%</div></div>
-    <div class="skill-card"><div class="name">AI-Assisted Dev (Node.js/Next.js/Python)</div><div class="bar-track"><div class="bar-fill" style="width:50%"></div></div><div class="pct">50%</div></div>
-  </div>
-</section>
-</div>
+  <!-- =========================
+       HOME
+  ========================= -->
 
-<!-- EXPERIENCE -->
-<div class="container" id="experience">
-<section class="fade">
-  <div class="sec-head">
-    <div class="sec-eyebrow">// experience</div>
-    <div class="sec-title">Experience</div>
-    <p class="sec-sub">Professional journey across interior design, international education, and EdTech/SaaS platforms.</p>
-  </div>
+  <div class="container" id="home">
 
-  <div class="exp-card">
-    <div class="exp-top">
-      <div><div class="exp-role">SEO Freelancer / Consultant</div><div class="exp-org">Freelance Client — Interior Design Firm, Delhi</div></div>
-      <div class="exp-date">Aug 2026 – Present</div>
-    </div>
-    <ul>
-      <li>Handling end-to-end SEO and CRO for the client independently — on-page, off-page, and technical SEO, plus conversion rate optimization</li>
-      <li>Using Ahrefs, Semrush, Google Search Console, GA4, and Google Tag Manager to track performance, run keyword and competitor research, and guide optimization decisions</li>
-      <li>Coordinating directly with the client to plan and prioritize work, track deliverables, and report on progress</li>
-    </ul>
-  </div>
+    <section class="hero fade">
 
-  <div class="exp-card">
-    <div class="exp-top">
-      <div><div class="exp-role">SEO Content Freelancer</div><div class="exp-org">International Client (Academic Support, Canada)</div></div>
-      <div class="exp-date">Feb 2026 – Aug 2026</div>
-    </div>
-    <ul>
-      <li>Produced 50+ SEO-optimized articles for an international education-sector client, covering keyword targeting, on-page structure, and content quality</li>
-      <li>Worked independently and remotely with an overseas client, managing communication, deadlines, and deliverables without direct supervision</li>
-      <li>Applied on-page SEO, keyword research, and content structuring to improve organic visibility and search performance of client content</li>
-    </ul>
-  </div>
+      <div>
 
-  <div class="exp-card">
-    <div class="exp-top">
-      <div><div class="exp-role">Growth &amp; SEO Intern</div><div class="exp-org">MiM-Essay · Kraya AI · Mentr-Me</div></div>
-      <div class="exp-date">Aug 2025 – Feb 2026</div>
-    </div>
-    <ul>
-      <li>EdTech SEO (MiM-Essay): Moved 25+ competitive MBA/MIM keywords from positions 4–10 into Top 3 on Google, including NUS MIM GMAT Score (#10 → #1) and Imperial MBA Salary (#8 → #3)</li>
-      <li>Optimized 30+ pages/keywords for search intent, semantic keyword coverage, heading structure, meta tags, and internal linking architecture</li>
-      <li>Built 6,000+ high-quality backlinks via guest posts, infographic submissions, PDF submissions, podcast submissions, and contextual placements</li>
-      <li>Ran technical SEO audits — indexation checks, canonical tag reviews, sitemap optimization, crawl diagnostics — using Screaming Frog, Ahrefs, Semrush, and Google Search Console</li>
-      <li>Structured content for AEO (FAQ schema, direct answer blocks) and GEO (entity definitions, authoritative data citations) so pages surface in AI Overviews and get cited by ChatGPT, Perplexity, and Google AI Mode</li>
-      <li>SaaS SEO (Kraya AI): conducted commercial-intent keyword research (TOFU/MOFU/BOFU) and optimized 5+ SaaS landing pages; also supported ORM and GMB optimization for Mentr-Me</li>
-    </ul>
-  </div>
-</section>
-</div>
-
-<!-- EDUCATION -->
-<div class="container" id="education">
-<section class="fade">
-  <div class="sec-head">
-    <div class="sec-eyebrow">// education</div>
-    <div class="sec-title">Education &amp; Certifications</div>
-    <p class="sec-sub">Academic background and specialized training.</p>
-  </div>
-  <div class="edu-grid">
-    <div>
-      <div class="edu-card">
-        <div class="edu-tag">DEGREE — PURSUING</div>
-        <div class="edu-degree">B.Com</div>
-        <div class="edu-school">University of Delhi (School of Open Learning)</div>
-        <div class="edu-grade">Expected 2027</div>
-      </div>
-    </div>
-    <div>
-      <div class="cert-card">
-        <div class="cert-row">
-          <div><div class="cert-name">HubSpot SEO Certification</div><div class="cert-org">HubSpot Academy · 2025</div></div>
-          <div class="dot"></div>
+        <div class="hero-eyebrow">
+          Open to work · Delhi NCR &amp; Remote
         </div>
+
+        <h1>Ritik Yadav</h1>
+
+        <div class="role">
+          SEO &amp; Growth Marketing Specialist
+        </div>
+
+        <p class="lede">
+          I help businesses grow organic traffic, rankings and leads through
+          technical SEO, content strategy, on-page optimization, link building,
+          CRO and AI-search optimization.
+        </p>
+
+        <div class="hero-actions">
+
+          <a href="#case-study" class="btn btn-solid">
+            View Case Study →
+          </a>
+
+          <a
+            href="Ritik_Yadav_Resume.docx"
+            class="btn btn-outline"
+            download
+          >
+            Download Résumé ↓
+          </a>
+
+        </div>
+
       </div>
-    </div>
+
+
+      <div class="hero-visual">
+
+        <svg viewBox="0 0 400 400" aria-hidden="true">
+
+          <g stroke="#FF6A39" stroke-width="1" opacity="0.35">
+
+            <line x1="40" y1="60" x2="140" y2="120"/>
+            <line x1="140" y1="120" x2="90" y2="220"/>
+            <line x1="90" y1="220" x2="200" y2="260"/>
+            <line x1="200" y1="260" x2="320" y2="180"/>
+            <line x1="320" y1="180" x2="280" y2="80"/>
+            <line x1="280" y1="80" x2="140" y2="120"/>
+            <line x1="60" y1="320" x2="200" y2="260"/>
+            <line x1="340" y1="320" x2="320" y2="180"/>
+
+          </g>
+
+          <g fill="#FF6A39">
+
+            <circle cx="40" cy="60" r="3"/>
+            <circle cx="140" cy="120" r="3"/>
+            <circle cx="90" cy="220" r="3"/>
+            <circle cx="200" cy="260" r="3"/>
+            <circle cx="320" cy="180" r="3"/>
+            <circle cx="280" cy="80" r="3"/>
+            <circle cx="60" cy="320" r="3"/>
+            <circle cx="340" cy="320" r="3"/>
+
+          </g>
+
+        </svg>
+
+        <div class="hero-avatar">
+          RY
+        </div>
+
+        <div class="hero-badge">
+          <b>25+</b>
+          <span>Keywords → Top 3</span>
+        </div>
+
+      </div>
+
+    </section>
+
   </div>
-</section>
-</div>
 
-<!-- PROJECTS -->
-<div class="container" id="projects">
-<section class="fade">
-  <div class="sec-head">
-    <div class="sec-eyebrow">// projects</div>
-    <div class="sec-title">Projects</div>
-    <p class="sec-sub">AI-assisted builds alongside my SEO work — real, working prototypes, not professional dev output.</p>
+
+  <!-- =========================
+       ABOUT
+  ========================= -->
+
+  <div class="container" id="about">
+
+    <section class="fade">
+
+      <div class="sec-head">
+
+        <div class="sec-eyebrow">// about</div>
+
+        <div class="sec-title">
+          About Me
+        </div>
+
+        <p class="sec-sub">
+          A hands-on SEO specialist focused on organic growth,
+          search visibility, content systems and the evolution of AI search.
+        </p>
+
+      </div>
+
+
+      <div class="about-grid">
+
+        <div class="about-text">
+
+          <p>
+            I'm <strong>Ritik Yadav</strong>, an SEO &amp; Growth Marketing
+            Specialist with 1+ year of hands-on experience across
+            <strong>EdTech, SaaS, interior design and international client work</strong>.
+            I've moved <strong>25+ competitive keywords into Top 3</strong>
+            Google positions, ranked 30+ pages/keywords in the SERPs,
+            written 50+ SEO content articles, and built 6,000+ backlinks
+            through structured outreach.
+          </p>
+
+          <p>
+            My core experience covers
+            <strong>technical SEO, on-page SEO, content SEO,
+            keyword research, internal linking, schema,
+            off-page SEO and CRO</strong>.
+          </p>
+
+          <p>
+            I'm also focused on where search is heading next —
+            <strong>Answer Engine Optimization (AEO)</strong> and
+            <strong>Generative Engine Optimization (GEO)</strong>,
+            with an emphasis on structuring useful content for
+            AI Overviews and AI-powered search experiences.
+          </p>
+
+          <p>
+            I currently manage SEO and CRO independently for a
+            Delhi-based commercial interior design firm, while also
+            building SEO systems, conducting audits, planning content,
+            monitoring analytics and coordinating directly with the client.
+          </p>
+
+        </div>
+
+
+        <div class="about-cards">
+
+          <div class="about-card">
+
+            <h4>
+              Search &amp; Growth Strategy
+            </h4>
+
+            <p>
+              On-page, technical and off-page SEO including
+              search intent mapping, keyword research, heading architecture,
+              schema, internal linking and backlink outreach.
+            </p>
+
+          </div>
+
+
+          <div class="about-card">
+
+            <h4>
+              AEO &amp; GEO
+            </h4>
+
+            <p>
+              Structuring content for direct answers, featured snippets,
+              AI search visibility, entity coverage and citation opportunities.
+            </p>
+
+          </div>
+
+
+          <div class="about-card">
+
+            <h4>
+              Analytics &amp; CRO
+            </h4>
+
+            <p>
+              Google Search Console, GA4 and Google Tag Manager
+              for performance monitoring, conversion tracking and
+              SEO decision-making.
+            </p>
+
+          </div>
+
+
+          <div class="about-card">
+
+            <h4>
+              Client Ownership
+            </h4>
+
+            <p>
+              Independent project ownership covering planning,
+              execution, prioritization, communication and reporting.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
   </div>
-  <div class="proj-grid">
 
-    <div class="proj-card">
-      <div class="proj-cover" style="background:linear-gradient(135deg,#3a1f12,#1a1a1a)">🧩</div>
-      <div class="proj-body">
-        <div class="proj-tag">Next.js · AI-Assisted · 2025</div>
-        <div class="proj-title">SEO + CRO Landing Page</div>
-        <div class="proj-desc">Built a live landing page targeting a competitive review keyword — full heading structure, metadata, schema, and conversion-focused CTAs.</div>
-      </div>
-    </div>
 
-    <div class="proj-card">
-      <div class="proj-cover" style="background:linear-gradient(135deg,#0d2e1e,#1a1a1a)">🤖</div>
-      <div class="proj-body">
-        <div class="proj-tag">Node.js · AI-Assisted · 2025</div>
-        <div class="proj-title">WhatsApp Automation Bot</div>
-        <div class="proj-desc">Built a working bot prototype handling auto-replies, broadcast messaging, group management, and admin controls.</div>
-      </div>
-    </div>
+  <!-- =========================
+       SKILLS
+  ========================= -->
 
-    <div class="proj-card">
-      <div class="proj-cover" style="background:linear-gradient(135deg,#12251f,#1a1a1a)">🧠</div>
-      <div class="proj-body">
-        <div class="proj-tag">ChatGPT · Claude · Perplexity · 2025</div>
-        <div class="proj-title">AI Content Workflow System</div>
-        <div class="proj-desc">Designed structured AI prompts for blog research, keyword clustering, and content outlining to scale production without sacrificing quality.</div>
+  <div class="container" id="skills">
+
+    <section class="fade">
+
+      <div class="sec-head">
+
+        <div class="sec-eyebrow">// skills</div>
+
+        <div class="sec-title">
+          Skills
+        </div>
+
+        <p class="sec-sub">
+          Tools and disciplines I use to improve rankings,
+          organic visibility, content performance and conversions.
+        </p>
+
       </div>
-    </div>
+
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+
+          <div class="name">
+            On-Page SEO
+          </div>
+
+          <div class="bar-track">
+            <div class="bar-fill" style="width:92%"></div>
+          </div>
+
+          <div class="pct">
+            92%
+          </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="name">
+            Off-Page &amp; Link Building
+          </div>
+
+          <div class="bar-track">
+            <div class="bar-fill" style="width:90%"></div>
+          </div>
+
+          <div class="pct">
+            90%
+          </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="name">
+            AEO / GEO
+          </div>
+
+          <div class="bar-track">
+            <div class="bar-fill" style="width:85%"></div>
+          </div>
+
+          <div class="pct">
+            85%
+          </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="name">
+            Technical SEO &amp; CRO
+          </div>
+
+          <div class="bar-track">
+            <div class="bar-fill" style="width:84%"></div>
+          </div>
+
+          <div class="pct">
+            84%
+          </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="name">
+            Keyword Research
+          </div>
+
+          <div class="bar-track">
+            <div class="bar-fill" style="width:85%"></div>
+          </div>
+
+          <div class="pct">
+            Ahrefs · Semrush
+          </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="name">
+            GSC / GA4 / GTM
+          </div>
+
+          <div class="bar-track">
+            <div class="bar-fill" style="width:83%"></div>
+          </div>
+
+          <div class="pct">
+            83%
+          </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="name">
+            Client Communication
+          </div>
+
+          <div class="bar-track">
+            <div class="bar-fill" style="width:88%"></div>
+          </div>
+
+          <div class="pct">
+            88%
+          </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="name">
+            AI-Assisted Dev
+          </div>
+
+          <div class="bar-track">
+            <div class="bar-fill" style="width:50%"></div>
+          </div>
+
+          <div class="pct">
+            Node.js · Next.js · Python
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
 
   </div>
-</section>
-</div>
 
-<!-- CONTACT -->
-<div class="container" id="contact">
-<section class="fade">
-  <div class="contact-grid">
-    <div>
-      <div class="sec-eyebrow">// contact</div>
-      <div class="contact-title">Let's Work Together</div>
-      <p class="contact-sub">Open to full-time SEO roles, remote/international freelance work, and content + growth positions. Have a project in mind? Send a message and I'll get back to you.</p>
-      <div class="contact-info"><span class="ic">📍</span> Delhi, India · Open to Remote</div>
-      <div class="contact-info"><span class="ic">📞</span> +91 93102 09239</div>
-      <div class="contact-info"><span class="ic">✉️</span> ritikyadav44648@gmail.com</div>
-      <div class="social-row">
-        <a href="mailto:ritikyadav44648@gmail.com" class="social-btn" title="Email">✉️</a>
-        <a href="https://www.linkedin.com/in/ritik-yadav000/" class="social-btn" target="_blank" title="LinkedIn">in</a>
-        <a href="https://wa.me/919310209239" class="social-btn" target="_blank" title="WhatsApp">💬</a>
+
+  <!-- =========================
+       EXPERIENCE
+  ========================= -->
+
+  <div class="container" id="experience">
+
+    <section class="fade">
+
+      <div class="sec-head">
+
+        <div class="sec-eyebrow">// experience</div>
+
+        <div class="sec-title">
+          Experience
+        </div>
+
+        <p class="sec-sub">
+          Professional experience across commercial SEO,
+          international education, EdTech and SaaS.
+        </p>
+
       </div>
-      <a href="Ritik_Yadav_Resume.pdf" class="btn btn-outline" download style="margin-top:2rem">Download Résumé ↓</a>
-    </div>
-    <div class="contact-form">
-      <div class="form-group"><label class="form-label">Your Name</label><input class="form-input" type="text" placeholder="Your name"></div>
-      <div class="form-group"><label class="form-label">Your Email</label><input class="form-input" type="email" placeholder="you@company.com"></div>
-      <div class="form-group"><label class="form-label">Your Message</label><textarea class="form-input" placeholder="Tell me about your project or role"></textarea></div>
-      <button class="form-submit" onclick="handleSubmit()">Send Message</button>
-    </div>
+
+
+      <!-- SEREIN SPACES -->
+
+      <div class="exp-card">
+
+        <div class="exp-top">
+
+          <div>
+
+            <div class="exp-role">
+              SEO Freelancer / Consultant
+            </div>
+
+            <div class="exp-org">
+              Freelance Client — Interior Design Firm, Delhi
+            </div>
+
+          </div>
+
+          <div class="exp-date">
+            Aug 2026 – Present
+          </div>
+
+        </div>
+
+
+        <ul>
+
+          <li>
+            Managed end-to-end SEO and CRO for a Delhi-based
+            commercial interior design firm, covering technical SEO,
+            on-page SEO, content strategy, off-page SEO and conversion optimization.
+          </li>
+
+          <li>
+            Conducted technical SEO audits covering indexing,
+            canonicalization, redirects, 404/5xx errors,
+            XML sitemaps, noindex issues, URL consistency and crawlability.
+          </li>
+
+          <li>
+            Built and executed a structured blog SEO process covering
+            keyword research, search intent, competitor analysis,
+            AI Overview opportunities, FAQs, metadata, internal linking
+            and content optimization.
+          </li>
+
+          <li>
+            Prepared and validated structured data for 30+ blog pages,
+            including BlogPosting, WebPage, BreadcrumbList,
+            Person and FAQPage schema.
+          </li>
+
+          <li>
+            Used Google Search Console, GA4, Google Tag Manager,
+            Ahrefs and Semrush to monitor organic performance,
+            indexing, user behaviour and conversion tracking.
+          </li>
+
+          <li>
+            Worked directly with the client to prioritize SEO tasks,
+            coordinate implementation, track deliverables and report progress.
+          </li>
+
+        </ul>
+
+      </div>
+
+
+      <!-- INTERNATIONAL CLIENT -->
+
+      <div class="exp-card">
+
+        <div class="exp-top">
+
+          <div>
+
+            <div class="exp-role">
+              SEO Content Freelancer
+            </div>
+
+            <div class="exp-org">
+              International Client — Academic Support, Canada
+            </div>
+
+          </div>
+
+          <div class="exp-date">
+            Feb 2026 – Aug 2026
+          </div>
+
+        </div>
+
+
+        <ul>
+
+          <li>
+            Produced 50+ SEO-optimized articles for an international
+            education-sector client, covering keyword targeting,
+            on-page structure and content quality.
+          </li>
+
+          <li>
+            Worked independently and remotely with an overseas client,
+            managing communication, deadlines and deliverables without direct supervision.
+          </li>
+
+          <li>
+            Applied keyword research, search intent analysis,
+            on-page SEO and content structuring to improve organic
+            visibility and search performance.
+          </li>
+
+        </ul>
+
+      </div>
+
+
+      <!-- MIM / KRAYA / MENTR -->
+
+      <div class="exp-card">
+
+        <div class="exp-top">
+
+          <div>
+
+            <div class="exp-role">
+              Growth &amp; SEO Intern
+            </div>
+
+            <div class="exp-org">
+              MiM-Essay · Kraya AI · Mentr-Me
+            </div>
+
+          </div>
+
+          <div class="exp-date">
+            Aug 2025 – Feb 2026
+          </div>
+
+        </div>
+
+
+        <ul>
+
+          <li>
+            EdTech SEO at MiM-Essay: moved 25+ competitive MBA/MIM
+            keywords from positions 4–10 into Top 3 on Google,
+            including NUS MIM GMAT Score (#10 → #1) and
+            Imperial MBA Salary (#8 → #3).
+          </li>
+
+          <li>
+            Optimized 30+ pages/keywords for search intent,
+            semantic keyword coverage, heading structure,
+            metadata and internal linking architecture.
+          </li>
+
+          <li>
+            Built 6,000+ backlinks through guest posts,
+            infographic submissions, PDF submissions,
+            podcast submissions and contextual placements.
+          </li>
+
+          <li>
+            Ran technical SEO audits covering indexation,
+            canonical tags, sitemap optimization and crawl diagnostics
+            using Screaming Frog, Ahrefs, Semrush and Google Search Console.
+          </li>
+
+          <li>
+            Structured content for AEO and GEO using direct answer blocks,
+            FAQs, structured data, entity coverage and authoritative references.
+          </li>
+
+          <li>
+            SaaS SEO at Kraya AI: conducted commercial-intent keyword research
+            across TOFU, MOFU and BOFU and optimized SaaS landing pages.
+          </li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
   </div>
-</section>
-</div>
 
-<footer>© 2026 Ritik Yadav · Delhi, India — SEO · Growth · AEO · GEO</footer>
 
-<script>
-document.addEventListener('DOMContentLoaded',()=>{
-  const obs=new IntersectionObserver(entries=>{
-    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})
-  },{threshold:.1})
-  document.querySelectorAll('.fade').forEach(el=>obs.observe(el))
+  <!-- =========================
+       SEREIN SPACES CASE STUDY
+  ========================= -->
 
-  const navToggle=document.getElementById('navToggle')
-  const navMobile=document.getElementById('navMobile')
-  navToggle.addEventListener('click',()=>navMobile.classList.toggle('open'))
-  navMobile.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navMobile.classList.remove('open')))
+  <div class="container" id="case-study">
 
-  const sections=document.querySelectorAll('section[id]')
-  const links=document.querySelectorAll('.nav-pill a')
-  const navObs=new IntersectionObserver(entries=>{
-    entries.forEach(e=>{
-      if(e.isIntersecting){
-        links.forEach(l=>l.classList.remove('active'))
-        const active=document.querySelector('.nav-pill a[href="#'+e.target.id+'"]')
-        if(active && !active.classList.contains('cta'))active.classList.add('active')
+    <section class="fade">
+
+      <div class="sec-head">
+
+        <div class="sec-eyebrow">
+          // case study
+        </div>
+
+        <div class="sec-title">
+          Serein Spaces — End-to-End SEO Growth
+        </div>
+
+        <p class="sec-sub">
+          A hands-on SEO growth project covering technical SEO,
+          content strategy, on-page optimization, indexing,
+          schema, analytics, CRO, internal linking and off-page SEO.
+        </p>
+
+      </div>
+
+
+      <div class="case-study">
+
+        <div class="case-label">
+          Real Client Project · 2026
+        </div>
+
+        <div class="case-title">
+          Building Organic Growth for a Commercial Interior Design Firm
+        </div>
+
+        <p class="case-intro">
+          I independently manage SEO and CRO for Serein Spaces,
+          a Delhi-based commercial interior design and office fit-out company.
+          The project covers the full SEO workflow — from technical audits
+          and indexing to content strategy, schema, analytics, conversion
+          tracking and off-page growth.
+        </p>
+
+
+        <div class="case-meta">
+
+          <span>
+            Technical SEO
+          </span>
+
+          <span>
+            Content SEO
+          </span>
+
+          <span>
+            On-Page SEO
+          </span>
+
+          <span>
+            Off-Page SEO
+          </span>
+
+          <span>
+            CRO
+          </span>
+
+          <span>
+            Schema
+          </span>
+
+          <span>
+            GSC
+          </span>
+
+          <span>
+            GA4
+          </span>
+
+          <span>
+            GTM
+          </span>
+
+        </div>
+
+
+        <div class="case-content">
+
+          <div>
+
+            <h3>
+              Technical SEO
+            </h3>
+
+            <ul class="case-list">
+
+              <li>
+                Audited Google Search Console indexing reports
+                and coverage issues.
+              </li>
+
+              <li>
+                Investigated 404 and 5xx URL issues.
+              </li>
+
+              <li>
+                Reviewed canonical implementation and duplicate URLs.
+              </li>
+
+              <li>
+                Audited XML sitemap quality and URL consistency.
+              </li>
+
+              <li>
+                Reviewed noindex and discovered-not-indexed URLs.
+              </li>
+
+              <li>
+                Identified legacy .php URL and internal linking issues.
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              Content &amp; On-Page SEO
+            </h3>
+
+            <ul class="case-list">
+
+              <li>
+                Developed keyword and search-intent strategies
+                for commercial office design topics.
+              </li>
+
+              <li>
+                Conducted competitor and SERP research.
+              </li>
+
+              <li>
+                Optimized existing blogs and prepared new SEO content.
+              </li>
+
+              <li>
+                Improved headings, metadata, FAQs and internal linking.
+              </li>
+
+              <li>
+                Identified Featured Snippet and AI Overview opportunities.
+              </li>
+
+              <li>
+                Built a repeatable SEO content workflow.
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              Schema &amp; AI Search
+            </h3>
+
+            <ul class="case-list">
+
+              <li>
+                Prepared and validated structured data for 30+ blog pages.
+              </li>
+
+              <li>
+                Implemented BlogPosting, WebPage and BreadcrumbList schema.
+              </li>
+
+              <li>
+                Added Person and FAQPage structured data where appropriate.
+              </li>
+
+              <li>
+                Improved content structure for answer-focused search.
+              </li>
+
+              <li>
+                Applied AEO and GEO principles to content planning.
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              Analytics &amp; CRO
+            </h3>
+
+            <ul class="case-list">
+
+              <li>
+                Monitored Google Search Console performance.
+              </li>
+
+              <li>
+                Analysed GA4 user and engagement data.
+              </li>
+
+              <li>
+                Reviewed form-start and form-submit events.
+              </li>
+
+              <li>
+                Audited Google Tag Manager URL and tag implementation.
+              </li>
+
+              <li>
+                Reviewed conversion tracking and lead measurement.
+              </li>
+
+              <li>
+                Used data to guide ongoing SEO and CRO decisions.
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+
+        <!-- CASE STUDY METRICS -->
+
+        <div class="case-metrics">
+
+          <div class="case-metric">
+
+            <strong>
+              30+
+            </strong>
+
+            <span>
+              Blog schema implementations
+            </span>
+
+          </div>
+
+
+          <div class="case-metric">
+
+            <strong>
+              13+
+            </strong>
+
+            <span>
+              Indexing issues / URLs investigated
+            </span>
+
+          </div>
+
+
+          <div class="case-metric">
+
+            <strong>
+              3
+            </strong>
+
+            <span>
+              Verified business leads reported
+            </span>
+
+          </div>
+
+
+          <div class="case-metric">
+
+            <strong>
+              SEO + CRO
+            </strong>
+
+            <span>
+              End-to-end project ownership
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <div class="case-actions">
+
+          <a
+            href="Serein-Spaces-SEO-Case-Study.pdf"
+            class="btn btn-solid"
+            target="_blank"
+          >
+            View Full Case Study →
+          </a>
+
+          <a
+            href="https://sereinspaces.com/"
+            class="btn btn-outline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Client Website ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+
+  <!-- =========================
+       EDUCATION
+  ========================= -->
+
+  <div class="container" id="education">
+
+    <section class="fade">
+
+      <div class="sec-head">
+
+        <div class="sec-eyebrow">// education</div>
+
+        <div class="sec-title">
+          Education &amp; Certifications
+        </div>
+
+        <p class="sec-sub">
+          Academic background and specialized SEO training.
+        </p>
+
+      </div>
+
+
+      <div class="edu-grid">
+
+        <div>
+
+          <div class="edu-card">
+
+            <div class="edu-tag">
+              DEGREE — PURSUING
+            </div>
+
+            <div class="edu-degree">
+              B.Com
+            </div>
+
+            <div class="edu-school">
+              University of Delhi
+              (School of Open Learning)
+            </div>
+
+            <div class="edu-grade">
+              Expected 2027
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div>
+
+          <div class="cert-card">
+
+            <div class="cert-row">
+
+              <div>
+
+                <div class="cert-name">
+                  HubSpot SEO Certification
+                </div>
+
+                <div class="cert-org">
+                  HubSpot Academy · 2025
+                </div>
+
+              </div>
+
+              <div class="dot"></div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+
+  <!-- =========================
+       PROJECTS
+  ========================= -->
+
+  <div class="container" id="projects">
+
+    <section class="fade">
+
+      <div class="sec-head">
+
+        <div class="sec-eyebrow">// selected work</div>
+
+        <div class="sec-title">
+          Projects &amp; Proof
+        </div>
+
+        <p class="sec-sub">
+          Selected SEO, growth and AI-assisted projects showing
+          the strategy, execution and measurable work behind my experience.
+        </p>
+
+      </div>
+
+
+      <div class="proj-grid">
+
+
+        <!-- SEREIN SPACES -->
+
+        <div class="proj-card">
+
+          <div
+            class="proj-cover"
+            style="background:linear-gradient(135deg,#3a1f12,#1a1a1a)"
+          >
+            📈
+          </div>
+
+          <div class="proj-body">
+
+            <div class="proj-tag">
+              SEO · CRO · 2026
+            </div>
+
+            <div class="proj-title">
+              Serein Spaces — End-to-End SEO Growth
+            </div>
+
+            <div class="proj-desc">
+              Managed SEO and CRO for a commercial interior design firm,
+              covering technical SEO, content strategy, indexing,
+              schema, analytics, internal linking and off-page SEO.
+            </div>
+
+            <div class="proj-metrics">
+
+              <span class="proj-metric">
+                Technical SEO
+              </span>
+
+              <span class="proj-metric">
+                30+ Schemas
+              </span>
+
+              <span class="proj-metric">
+                GSC + GA4
+              </span>
+
+              <span class="proj-metric">
+                CRO
+              </span>
+
+            </div>
+
+            <a
+              href="Serein-Spaces-SEO-Case-Study.pdf"
+              class="proj-link"
+              target="_blank"
+            >
+              View Case Study →
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- MIM ESSAY -->
+
+        <div class="proj-card">
+
+          <div
+            class="proj-cover"
+            style="background:linear-gradient(135deg,#251c12,#1a1a1a)"
+          >
+            🚀
+          </div>
+
+          <div class="proj-body">
+
+            <div class="proj-tag">
+              EdTech SEO · 2025–26
+            </div>
+
+            <div class="proj-title">
+              MiM-Essay — SEO Growth
+            </div>
+
+            <div class="proj-desc">
+              Worked on keyword research, technical SEO, content optimization,
+              internal linking and link building for an international
+              education-focused website.
+            </div>
+
+            <div class="proj-metrics">
+
+              <span class="proj-metric">
+                25+ Top 3 Keywords
+              </span>
+
+              <span class="proj-metric">
+                6,000+ Backlinks
+              </span>
+
+              <span class="proj-metric">
+                30+ Pages
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- INTERNATIONAL CONTENT -->
+
+        <div class="proj-card">
+
+          <div
+            class="proj-cover"
+            style="background:linear-gradient(135deg,#18222d,#1a1a1a)"
+          >
+            🌎
+          </div>
+
+          <div class="proj-body">
+
+            <div class="proj-tag">
+              SEO Content · International
+            </div>
+
+            <div class="proj-title">
+              International Education Client
+            </div>
+
+            <div class="proj-desc">
+              Produced SEO-focused content for an international
+              education-sector client while independently managing
+              research, content structure, deadlines and delivery.
+            </div>
+
+            <div class="proj-metrics">
+
+              <span class="proj-metric">
+                50+ Articles
+              </span>
+
+              <span class="proj-metric">
+                Remote Client
+              </span>
+
+              <span class="proj-metric">
+                SEO Content
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- SEO CRO -->
+
+        <div class="proj-card">
+
+          <div
+            class="proj-cover"
+            style="background:linear-gradient(135deg,#3a1f12,#1a1a1a)"
+          >
+            🧩
+          </div>
+
+          <div class="proj-body">
+
+            <div class="proj-tag">
+              Next.js · AI-Assisted
+            </div>
+
+            <div class="proj-title">
+              SEO + CRO Landing Page
+            </div>
+
+            <div class="proj-desc">
+              Built a working landing page targeting a competitive
+              review keyword with structured headings, metadata,
+              schema and conversion-focused CTAs.
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- AI CONTENT WORKFLOW -->
+
+        <div class="proj-card">
+
+          <div
+            class="proj-cover"
+            style="background:linear-gradient(135deg,#12251f,#1a1a1a)"
+          >
+            🧠
+          </div>
+
+          <div class="proj-body">
+
+            <div class="proj-tag">
+              AI · SEO Workflow
+            </div>
+
+            <div class="proj-title">
+              AI Content Workflow System
+            </div>
+
+            <div class="proj-desc">
+              Designed structured AI workflows for blog research,
+              keyword clustering, competitor analysis and content
+              outlining to improve SEO content production.
+            </div>
+
+            <div class="proj-metrics">
+
+              <span class="proj-metric">
+                ChatGPT
+              </span>
+
+              <span class="proj-metric">
+                Claude
+              </span>
+
+              <span class="proj-metric">
+                Perplexity
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- WHATSAPP BOT -->
+
+        <div class="proj-card">
+
+          <div
+            class="proj-cover"
+            style="background:linear-gradient(135deg,#0d2e1e,#1a1a1a)"
+          >
+            🤖
+          </div>
+
+          <div class="proj-body">
+
+            <div class="proj-tag">
+              Node.js · AI-Assisted
+            </div>
+
+            <div class="proj-title">
+              WhatsApp Automation Bot
+            </div>
+
+            <div class="proj-desc">
+              Built a working bot prototype supporting auto-replies,
+              broadcast messaging, group management and administrative controls.
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+
+  <!-- =========================
+       CONTACT
+  ========================= -->
+
+  <div class="container" id="contact">
+
+    <section class="fade">
+
+      <div class="contact-grid">
+
+        <div>
+
+          <div class="sec-eyebrow">
+            // contact
+          </div>
+
+          <div class="contact-title">
+            Need SEO That Drives Growth?
+          </div>
+
+          <p class="contact-sub">
+            I'm available for SEO consulting, ongoing SEO retainers,
+            content strategy, technical SEO audits and remote growth projects.
+            Tell me what you're working on.
+          </p>
+
+
+          <div class="contact-info">
+            <span class="ic">📍</span>
+            Delhi, India · Open to Remote
+          </div>
+
+
+          <div class="contact-info">
+            <span class="ic">📞</span>
+            +91 93102 09239
+          </div>
+
+
+          <div class="contact-info">
+            <span class="ic">✉️</span>
+            ritikyadav44648@gmail.com
+          </div>
+
+
+          <div class="social-row">
+
+            <a
+              href="mailto:ritikyadav44648@gmail.com"
+              class="social-btn"
+              title="Email"
+              aria-label="Email"
+            >
+              ✉️
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/ritik-yadav000/"
+              class="social-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="LinkedIn"
+              aria-label="LinkedIn"
+            >
+              in
+            </a>
+
+            <a
+              href="https://wa.me/919310209239"
+              class="social-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="WhatsApp"
+              aria-label="WhatsApp"
+            >
+              💬
+            </a>
+
+          </div>
+
+
+          <a
+            href="Ritik_Yadav_Resume.pdf"
+            class="btn btn-outline"
+            download
+            style="margin-top:2rem"
+          >
+            Download Résumé ↓
+          </a>
+
+        </div>
+
+
+        <div class="contact-form">
+
+          <div class="form-group">
+
+            <label class="form-label" for="name">
+              Your Name
+            </label>
+
+            <input
+              class="form-input"
+              id="name"
+              type="text"
+              placeholder="Your name"
+            >
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label class="form-label" for="email">
+              Your Email
+            </label>
+
+            <input
+              class="form-input"
+              id="email"
+              type="email"
+              placeholder="you@company.com"
+            >
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label class="form-label" for="message">
+              Your Message
+            </label>
+
+            <textarea
+              class="form-input"
+              id="message"
+              placeholder="Tell me about your project or role"
+            ></textarea>
+
+          </div>
+
+
+          <button
+            class="form-submit"
+            onclick="handleSubmit()"
+          >
+            Send Message
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+
+  <footer>
+    © 2026 Ritik Yadav · Delhi, India — SEO · Growth · AEO · GEO
+  </footer>
+
+
+  <!-- =========================
+       JAVASCRIPT
+  ========================= -->
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+      /* Fade animations */
+
+      const obs = new IntersectionObserver(
+        entries => {
+
+          entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+              entry.target.classList.add('visible');
+
+              obs.unobserve(entry.target);
+
+            }
+
+          });
+
+        },
+        {
+          threshold: .1
+        }
+      );
+
+      document
+        .querySelectorAll('.fade')
+        .forEach(el => obs.observe(el));
+
+
+      /* Mobile navigation */
+
+      const navToggle =
+        document.getElementById('navToggle');
+
+      const navMobile =
+        document.getElementById('navMobile');
+
+
+      navToggle.addEventListener('click', () => {
+
+        navMobile.classList.toggle('open');
+
+      });
+
+
+      navMobile
+        .querySelectorAll('a')
+        .forEach(a => {
+
+          a.addEventListener('click', () => {
+
+            navMobile.classList.remove('open');
+
+          });
+
+        });
+
+
+      /* Desktop active navigation */
+
+      const sections =
+        document.querySelectorAll('section[id]');
+
+      const links =
+        document.querySelectorAll('.nav-pill a');
+
+
+      const navObs =
+        new IntersectionObserver(
+          entries => {
+
+            entries.forEach(entry => {
+
+              if (entry.isIntersecting) {
+
+                links.forEach(link => {
+                  link.classList.remove('active');
+                });
+
+
+                const active =
+                  document.querySelector(
+                    '.nav-pill a[href="#' +
+                    entry.target.id +
+                    '"]'
+                  );
+
+
+                if (
+                  active &&
+                  !active.classList.contains('cta')
+                ) {
+
+                  active.classList.add('active');
+
+                }
+
+              }
+
+            });
+
+          },
+          {
+            rootMargin: '-40% 0px -50% 0px'
+          }
+        );
+
+
+      sections.forEach(section => {
+        navObs.observe(section);
+      });
+
+    });
+
+
+    /* Contact button */
+
+    function handleSubmit() {
+
+      const name =
+        document.getElementById('name').value.trim();
+
+      const email =
+        document.getElementById('email').value.trim();
+
+      const message =
+        document.getElementById('message').value.trim();
+
+      const btn =
+        document.querySelector('.form-submit');
+
+
+      if (!name || !email || !message) {
+
+        btn.textContent = 'Please fill all fields';
+
+        setTimeout(() => {
+
+          btn.textContent = 'Send Message';
+
+        }, 2000);
+
+        return;
+
       }
-    })
-  },{rootMargin:'-40% 0px -50% 0px'})
-  sections.forEach(s=>navObs.observe(s))
-})
-function handleSubmit(){
-  const btn=document.querySelector('.form-submit')
-  btn.textContent='Message sent ✓'
-  btn.style.background='#1a3a2a'
-  btn.style.color='#4ade80'
-}
-</script>
+
+
+      /*
+        Temporary frontend response.
+
+        Replace this with Formspree, Web3Forms,
+        FormSubmit or another backend form service
+        when you want actual message delivery.
+      */
+
+      const subject =
+        encodeURIComponent(
+          'SEO Project Inquiry from Portfolio'
+        );
+
+      const body =
+        encodeURIComponent(
+          'Name: ' + name +
+          '\nEmail: ' + email +
+          '\n\nMessage:\n' + message
+        );
+
+
+      window.location.href =
+        'mailto:ritikyadav44648@gmail.com' +
+        '?subject=' + subject +
+        '&body=' + body;
+
+    }
+
+  </script>
+
 </body>
 </html>
