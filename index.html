@@ -319,52 +319,40 @@
     }
 
     .hero-avatar {
-      width: 60%;
-      aspect-ratio: 1;
-      border-radius: 50%;
-      background: var(--surface);
-      border: 2px solid var(--accent);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 5rem;
-      font-weight: 800;
-      color: var(--accent);
-      font-family: var(--mono);
-      position: relative;
-      z-index: 2;
-    }
+  width: 60%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 2px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--accent);
+  font-family: var(--mono);
+  position: relative;
+  z-index: 2;
+}
 
-    .hero-visual svg {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      opacity: .5;
-    }
+/* Profile photo */
+.hero-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 50%;
+  display: block;
+  transform: scale(1.25);
+}
 
-    .hero-badge {
-      position: absolute;
-      bottom: 18px;
-      left: 18px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 12px 18px;
-      z-index: 3;
-    }
-
-    .hero-badge b {
-      color: var(--accent);
-      font-size: 1.3rem;
-      display: block;
-    }
-
-    .hero-badge span {
-      font-size: 11px;
-      color: var(--muted);
-    }
-
+.hero-visual svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+}
     /* =========================
        SECTION HEAD
     ========================= */
@@ -1262,9 +1250,12 @@
 
         </svg>
 
-        <div class="hero-avatar">
-          RY
-        </div>
+       <div class="hero-avatar">
+  <img 
+    src="linkedinpfp.jpeg" 
+    alt="Ritik Yadav - SEO & Growth Marketing Specialist"
+  >
+</div>
 
         <div class="hero-badge">
           <b>25+</b>
